@@ -1,0 +1,109 @@
+{
+    "queryRefundableDish": {
+        "code": 200,
+        "msg": "成功",
+        "data": {
+            "refundableOrderHeadInfo": {
+                "barCode": "1432",
+                "orderViewId": "0704327819",
+                "tableNo": "1",
+                "orderGroupId": 21149045,
+                "orderTime": "2017-07-10 15:38:51",
+                "phone": "",
+                "merchantAmount": 610.11,
+                "consumptionPrice": 629.11,
+                "refundAmount": 4,
+                "disCountAmount": 14,
+                "payPrice": 610.11,
+                "canRefundAll": true
+            },
+            "subRefundableOrderList": [{
+                "orderId": 303916,
+                "payPrice": 615.02,
+                "subOrderTime": "2017-07-10 15:38",
+                "promotionRatio": 0.886188,
+                "refundableSkuVOs": [{
+                        "skuId": 10569299,
+                        "name": "234234234",
+                        "count": 2,
+                        "originPrice": 0,
+                        "currentPrice": 0,
+                        "status": "已支付",
+                        "specAttr": [
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        "sharePromotion": 1,
+                        "suggestRefundPrice": 0
+                    },
+                    {
+                        "skuId": 10569302,
+                        "name": "412",
+                        "count": 1,
+                        "originPrice": 123,
+                        "currentPrice": 123,
+                        "status": "已支付",
+                        "specAttr": [],
+                        "sharePromotion": 1,
+                        "suggestRefundPrice": 117.849281
+                    },
+                    {
+                        "skuId": 11687204,
+                        "name": "可选套餐",
+                        "count": 1,
+                        "originPrice": 0.01,
+                        "currentPrice": 0.01,
+                        "status": "已退款",
+                        "specAttr": [],
+                        "sharePromotion": 0,
+                        "suggestRefundPrice": 0.009835
+                    },
+                    {
+                        "skuId": 10569300,
+                        "name": "123123",
+                        "count": 1,
+                        "originPrice": 0.01,
+                        "currentPrice": 0.01,
+                        "status": "已支付",
+                        "specAttr": [],
+                        "sharePromotion": 1,
+                        "suggestRefundPrice": 0.009591
+                    },
+                    {
+                        "skuId": 11687225,
+                        "name": "A",
+                        "count": 1,
+                        "originPrice": 10,
+                        "currentPrice": 5,
+                        "status": "已支付",
+                        "specAttr": [],
+                        "sharePromotion": 0,
+                        "suggestRefundPrice": 4.912572
+                    },
+                    {
+                        "skuId": 10565699,
+                        "name": "炸鲜奶1",
+                        "count": 7,
+                        "originPrice": 67,
+                        "currentPrice": 67,
+                        "status": "已支付",
+                        "specAttr": [],
+                        "sharePromotion": 0,
+                        "suggestRefundPrice": 65.828336
+                    }
+                ],
+                "refundableExtraFeeVOs": [{
+                    "id": 100944,
+                    "name": "餐位",
+                    "count": 3,
+                    "price": 9,
+                    "status": "已支付",
+                    "sharePromotion": 0,
+                    "suggestRefundPrice": 8.842615
+                }]
+            }]
+        }
+    }
+}

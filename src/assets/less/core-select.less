@@ -1,0 +1,31 @@
+@import "./color.less";
+@import "./preset.less";
+
+.core-select {
+    vertical-align: top;
+    margin-top: -10px;
+    display: inline-block;
+    .core-select-item {
+        display: inline-block;
+        margin: 10px 10px 0 0;
+        a {
+            display: inline-block;
+            padding: 0 16px 0 16px;
+            height: 30px;
+            line-height: 28px;
+            background-color: @mt-black-0;
+            border: 1px solid @border-color;
+            border-radius: 2px;
+            color: @mt-black-6;
+            font-size: 12px;
+            text-decoration: none;
+            cursor: pointer;
+            .border-box();
+            &.tag-selected {
+                color: @mt-green-light;
+                background-color: @mt-black-0;
+                border: 1px solid @mt-green-light;
+            }
+        }
+    }
+}

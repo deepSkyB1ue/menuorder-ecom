@@ -1,0 +1,94 @@
+/* 优惠券、优惠活动公共样式 */
+@import './preset.less';
+@import './color.less';
+@import './input.less';
+@import './checkbox.less';
+@import './radio.less';
+@import './tipsover.less';
+@import './core-select.less';
+
+.coupon-edit {
+    margin-top: 20px;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+    padding: 30px;
+    .name-input, .step-input, .reduce-input {
+        .input-normal();
+    }
+    .step-input, .reduce-input {
+        width: 75px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .item-group {
+        margin: 40px 0;
+    }
+    .group-title {
+        padding-bottom: 5px;
+        margin-top: 20px;
+        font-size: 18px;
+        border-bottom: 1px solid #eee;
+        color: #999;
+    }
+    .form-line {
+        min-height: 30px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .item-key {
+        font-size: 12px;
+        display: inline-block;
+        min-width: 70px;
+        text-align: center;
+        vertical-align: top;
+    }
+    .item-value {
+        font-size: 12px;
+        display: inline-block;
+        vertical-align: top;
+        .shop-promotion-tips{
+            background:#FDF6EB;
+            border: solid 1px #ff9d3c;
+            padding: 5px 10px;
+            .all-blue{
+                color: #3dc6b6;
+                cursor: pointer;
+            }
+        }
+    }
+    .select-shop-list {
+        p {
+            line-height: 20px;
+        }
+    }
+    .btn-group {
+        margin: 30px 0 0 10px;
+        button {
+            &:first-child {
+                margin-right: 15px;
+            }
+        }
+    }
+    .error-msg {
+        color: #f00;
+        margin-left: 10px;
+    }
+    .use-duration-range {
+        margin-top: 10px;
+    }
+    .background-area {
+        padding: 20px;
+        width: 760px;
+        border: 1px solid @border-color;
+        background-color: @bg-color;
+        margin-top: 10px;
+    }
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.part-shop{
+    max-height: 600px;
+    overflow: scroll;
+}

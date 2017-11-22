@@ -1,0 +1,260 @@
+@import '../../../assets/less/color.less';
+
+/* 门店管理 - 桌号设置 */
+
+@btn-radius: 2px;
+
+.table-panel .table-title {
+    height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-bottom: 1px solid #cccccc;
+}
+.table-container {
+    position: relative;
+    background-color: #f8f8f8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table-container .operation-area {
+    position: relative;
+    height: 60px;
+	margin: 0 8px;
+	padding: 15px 0;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+}
+.btns {
+	float: left;
+    position: relative;
+	span{
+		position: absolute;
+		bottom: -18px;
+		width: 500px;
+		left: 8px;
+		text-align: left;
+	}
+}
+.btn {
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+	font-size: 13px;
+	color: #ffffff;
+	border: 1px solid @mt-green-light;
+	background-color: @mt-green-light;
+    text-decoration: none;
+	padding: 0 20px;
+	cursor: pointer;
+	border-radius: @btn-radius;
+	text-align: center;
+    margin: 0 20px 10px;
+}
+.btn:hover {
+    color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+.btn-bottom {
+    margin-left: 10px;
+    margin-left: 15px;
+}
+.table-container .operation-area .links {
+	float: left;
+	/* margin-left: 20px; */
+}
+.table-container .operation-area .link {
+    line-height: 40px;
+	font-size: 13px;
+    text-decoration: none;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.table-area {
+	margin: 8px;
+	font-size: 14px;
+	color: #333;
+	.form-tit {
+		float: left;
+		font-weight: bold;
+	}
+	.form-txt {
+		margin-left: 80px;
+		overflow: hidden;
+		zoom: 1;
+	}
+}
+.area-item {
+	/* border: 1px solid #cccccc; */
+	padding: 10px;
+	margin-bottom: 10px;
+	.table-code-txt {
+		float: left;
+		margin-bottom: 5px;
+	}
+	.area-item-title {
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+		border-bottom: 1px solid #cccccc;
+		margin-bottom: 10px;
+	}
+	.area-item-content {
+		margin-bottom: 10px;
+	}
+	.add-print {
+		color: @text-normal;
+		cursor: pointer;
+		display: inline-block;
+		height: 20px;
+		line-height: 20px;
+	}
+	.print-list {
+		margin-right: 10px;
+		display: inline-block;
+		.print-tag {
+			position: relative;
+			display: inline-block;
+			height: 20px;
+			padding: 4px 10px 4px 10px;
+			line-height: 20px;
+			background-color: #fff;
+			color: @text-normal;
+			margin-bottom: 28px;
+			margin-right: 5px;
+			border-radius: 3px;
+			border: 1px solid #dbdbdb;
+			&.invalid {
+				background-color: #ccc;
+			}
+		}
+		.icon-delete {
+			margin-left: 20px;
+			color: @text-normal;
+			cursor: pointer;
+		}
+		.tip-invalid {
+			color: #ccc;
+			font-size: 12px;
+			position: absolute;
+			left: 0;
+			top: 28px;
+		}
+	}
+}
+.icon-add {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid @text-normal;
+	-webkit-border-radius: 14px;
+	-moz-border-radius:14px;
+	border-radius:14px;
+	color: @text-normal;
+	line-height: 14px;
+	text-align: center;
+	font-size: 14px;
+	margin-right: 2px;
+}
+.table-warning {
+	font-size: 24px;
+	color: #666;
+	padding: 20px 15px;
+}
+
+.table-set-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+.table-set-opt {
+    margin-left: 32px;
+	margin-bottom: 8px;
+}
+.input-type-opt {
+    margin-left: 32px;
+	margin-bottom: 8px;
+}
+.input-type-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+.btn-bottom {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.table-set-opt label {
+    margin-right: 10px;
+}
+.input-type-opt label {
+    margin-right: 10px;
+}
+
+/*客户端中部分系统样式*/
+.client-theme {
+	.btn {
+		background-color: #466CE6;
+		border: 1px solid #466CE6;
+		color: #fff;
+	}
+	.btn-main {
+		background-color: #466CE6;
+		border: 1px solid #466CE6;
+		color: #fff;
+	}
+	a {
+		color: #466CE6;
+		&.switchAccount {
+			color: #466CE6;
+		}
+	}
+}
+
+/* 打印桌号 桌号设置页面 */
+.print-code-box {
+  background-color: white;
+  width: auto;
+  .head {
+    padding: 10px 10px 10px 10px;
+    .title {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0 0;
+      display: inline-block;
+      *zoom: 1;
+      *display: inline;
+      width: 560px;
+      color: #EE7700;
+    }
+    .close {
+      display: inline-block;
+      *zoom: 1;
+      *display: inline;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+  .print-code-list {
+    margin: 10px 0px;
+    font-size: 14px;
+    max-height: 400px;
+    overflow-y: auto;
+    .print-code-item {
+      line-height: 30px;
+    }
+    .print-txt {
+      padding-left: 5px;
+      vertical-align: -1px;
+      *vertical-align:middle;/*ie7 ie6*/
+    }
+  }
+  .btn-cont {
+    text-align: center;
+    padding: 30px 0
+  }
+}

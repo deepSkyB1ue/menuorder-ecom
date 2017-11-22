@@ -1,0 +1,71 @@
+@import '../../../assets/less/color.less';
+
+/** shop header 几乎所有页面 **/
+.shop-header {
+    padding: 20px 15px 15px 0;
+    border-bottom: solid 1px #DBDBDB;
+    position: relative;
+    margin-bottom: 10px;
+    .page-theme {
+        color: #333;
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 5px;
+        line-height: 34px;
+        vertical-align: bottom;
+    }
+    .page-newtips {
+        line-height: 34px;
+        padding: 2px 3px;
+        border-radius: 4px;
+        border: 1px solid @dp-orange-light;
+        color: @dp-orange-light;
+    }
+    .shop-title {
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        max-width: 250px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: bottom;
+        line-height: 34px;
+    }
+    .reject-box {
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+    }
+    .reject-menu {
+        color: #ff0029;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .view-reject-menu {
+        color: #3399CC;
+        font-size: 12px;
+        margin-left: 5px;
+        text-decoration: none;
+    }
+    .switchAccount {
+        font-size: 12px;
+        color: #3dc6b6;
+        text-decoration: none;
+        vertical-align: bottom;
+        line-height: 34px;
+    }
+    .shop-number {
+        color: #333;
+        line-height: 34px;
+        vertical-align: bottom;
+    }
+}
+.msg-warning ~ .shop-header {
+    padding-top: 0px;
+}
+
+
+

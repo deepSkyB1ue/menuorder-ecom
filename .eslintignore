@@ -1,0 +1,7 @@
+build/*.js
+config/*.js
+data/*.js
+prototype
+templates
+node_modules
+src/components/ui-base

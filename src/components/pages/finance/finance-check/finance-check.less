@@ -1,0 +1,208 @@
+@import '../../../../assets/less/color';
+
+.page-theme {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: bottom;
+    line-height: 34px;
+}
+
+.module-tab {
+    .ui-tab-rectangle {
+        font-size: 14px;
+        border-bottom: 2px solid #3dc6b6;
+        margin: 20px 20px 20px 20px;
+
+        .tab-btn {
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 0 20px;
+            line-height: 40px;
+            width: 104px;
+            height: 40px;
+            color: #000;
+            background-color: #F3F3F3;
+            border: 1px solid #EBEBEB;
+            border-bottom: none;
+            //border-radius: 4px 4px 0 0;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+
+            &.on {
+                color: #fff;
+                background-color: #3dc6b6;
+            }
+        }
+    }
+}
+
+.selection-tab {
+    margin: 0 20px 10px 20px;
+    display: flex;
+
+    .tab-table {
+        //width:240px;
+        display: inline-block;
+        height: 40px;
+        position: relative;
+
+        td, th {
+            height:40px;
+            border: 1px solid @mt-black-3;
+            background-color: #F5f5f5;
+
+            .date-input {
+                width: 139px;
+                height: 30px;
+            }
+        }
+
+        .tab-button {
+            font-size: 13px;
+            width:71px;
+            //height:100%;
+            height: 40px;
+            background-color: white;
+            border: 2px solid white;
+
+            &.selected-button {
+                background-color: @mt-green-light;
+                color: white;
+                border: 1px solid @mt-green-light;
+            }
+        }
+
+        button {
+            width: 66px;
+            margin-right: 5px;
+        }
+
+        button[disabled] {
+            background-color: #6dd6d6;
+        }
+    }
+
+    .bee-dropdown-menu {
+        .select-val-container {
+            font-size: 13px;
+            line-height: 36px;
+            min-height: 36px;
+            padding: 2px 10px;
+            .select-result {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+        .select-search-box {
+            margin: 0;
+            padding: 5px;
+            .input-wrapper {
+                margin: 0;
+                width: 185px;
+            }
+        }
+        .bee-dropdown-menu-list {
+            padding: 0;
+            width: 197px !important;
+            .select-button-group {
+                border-top: 1px solid #d1d1d1;
+                button:last-of-type {
+                    color: #666;
+                    background-color: #d9d9d9;
+                }
+            }
+        }
+    }
+}
+
+.dateErrMsg {
+    margin-left: 320px;
+    color: red;
+    font-size: 12px;
+}
+
+.extra-info {
+    margin: 3px 20px 7px 20px;
+
+    .query-result {
+        line-height: 18px;
+        height: 18px;
+        //float: left;
+        display: inline-block;
+        box-sizing: border-box;
+        .record-count {
+            color: @mt-green-light;
+        }
+    }
+    .download-button {
+        line-height: 18px;
+        height: 18px;
+        float: right;
+        display: inline-block;
+        cursor: pointer;
+        .download-icon {
+            height: 12px;
+            width: 12px;
+        }
+
+        .download-text {
+            color: @mt-green-light;
+        }
+    }
+}
+
+.table-area {
+    margin-left: 20px;
+    margin-right: 20px;
+    .fee-table {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+.link-text {
+    color: @mt-green-light;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+
+.table-body {
+    border: 1px solid @mt-black-3;
+
+    th {
+        font-size: 12px;
+        line-height: 1.5;
+        color: @mt-black-8;
+        padding: 10px;
+        text-align: center;
+        background-color: @mt-black-1;
+        border: 1px solid @mt-black-3;
+    }
+
+    .fee-table-item {
+        border: 1px solid @mt-black-3;
+        padding: 10px;
+        text-align: center;
+        color: @text-normal;
+        font-size: 13px;
+
+        .detail-link {
+            text-align: center;
+        }
+    }
+}
+
+.pagination {
+    padding: 10px 10px;
+    float: right;
+}
+
+.main {
+    min-width: 960px;
+    margin: 0 auto;
+}

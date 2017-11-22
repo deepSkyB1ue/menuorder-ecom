@@ -1,0 +1,64 @@
+/* 问号上面的提示框 */
+
+.rotate45(){
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; /* IE8 */
+  }
+  
+  .tip-box {
+    position: relative;
+    cursor: pointer;
+    &:before {
+      content: '';
+      display: inline-block;
+      color: @mt-green-light;
+      position: relative;
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      background: url(../../../../assets/img/questionmark.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    &:hover .tip-popover {
+      display: block;
+    }
+    &:hover::before {
+        background: url(../../../../assets/img/questionmark-hover.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .tip-popover{
+      display:  none;
+      border: 2px solid #DDD;
+      padding: 6px;
+      line-height: 16px;
+      font-size: 12px;
+      width: 180px;
+      position: absolute;
+      left: -92px;
+      bottom: 20px;
+      background-color: #fff;
+      z-index: 99;
+      text-align: left;
+      i {
+        content: ' ';
+        display: block;
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border: 2px solid #DDD;
+        border-top: 0;
+        border-left: 0;
+        left: 50%;
+        bottom: -5px;
+        background: #fff;
+        margin-left: -3px;
+        z-index: 100;
+        .rotate45();
+      }
+    }
+  }

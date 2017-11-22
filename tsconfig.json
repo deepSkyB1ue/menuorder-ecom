@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "es2015",
+            "es2015.promise"
+        ],
+        "baseUrl": ".",
+        "paths":{
+            "ecom": ["node_modules/@dp/bee-ui/dist/styles/theme/ecom/index.css"]
+        },
+        "outDir": "./built/",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es5"
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

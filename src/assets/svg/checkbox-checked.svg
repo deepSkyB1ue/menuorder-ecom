@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>复选－checked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标" transform="translate(-811.000000, -528.000000)">
+            <g id="Group-Copy-2" transform="translate(324.000000, -9.000000)">
+                <g id="用户" transform="translate(259.000000, 170.000000)">
+                    <g id="Group" transform="translate(0.000000, 309.000000)">
+                        <g id="复选－checked" transform="translate(228.000000, 58.000000)">
+                            <path d="M2.00585866,0 L11.9941413,0 C13.1019465,0 14,0.897060126 14,2.00585866 L14,11.9941413 C14,13.1019465 13.1029399,14 11.9941413,14 L2.00585866,14 C0.898053512,14 0,13.1029399 0,11.9941413 L0,2.00585866 C0,0.898053512 0.897060126,0 2.00585866,0 L2.00585866,0 Z" id="Path-2" fill="#3DC6B6"></path>
+                            <polygon id="Rectangle-223" fill="#FFFFFF" points="6.24475517 7.95186195 3.41421356 5.12132034 2 6.53553391 6.24264069 10.7781746 12.6066017 4.41421356 11.1923882 3"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+package-lock.json
+.DS_Store
+node_modules/
+neurons/
+dist/
+npm-debug.log
+yarn-error.log
+.idea/

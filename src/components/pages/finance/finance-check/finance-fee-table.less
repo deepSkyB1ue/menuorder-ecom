@@ -1,0 +1,53 @@
+@import '../../../../assets/less/color';
+
+table {
+    border: 1px solid @mt-black-3;
+}
+
+.item-style {
+    margin: 20px 0;
+    position: relative;
+
+    .fee-name {
+        padding: 5px 15px;
+        background-color: @mt-black-1;
+        color: @text-dark;
+        border-radius: 10px;
+    }
+
+    .questionmark-icon {
+        display: inline-block;
+        background: url('../../../../assets/img/questionmark.png') no-repeat;
+        background-size: 100% 100%;
+        width: 12px;
+        height: 12px;
+        cursor: pointer;
+
+        &:hover {
+            display: inline-block;
+            background: url('../../../../assets/img/questionmark-hover.png') no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+
+    p {
+        margin-top: 15px;
+        color: @text-highlight;
+        font-size: 21px;
+    }
+
+    .fee-symbol {
+        position: absolute;
+        right: -7px;
+        font-size: 18px;
+        color: @text-normal;
+        line-height: 1.5;
+        top: 0px;
+    }
+}
+
+th {
+    text-align: center;
+}
+
+

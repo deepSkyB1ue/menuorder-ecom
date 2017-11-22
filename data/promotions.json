@@ -1,0 +1,340 @@
+{
+    "promotions": {
+        "code": "200",
+        "data": {
+            "holidayVOs": [
+                {
+                    "dateDisplay": "1月27日-2月2日",
+                    "name": "春节"
+                },
+                {
+                    "dateDisplay": "2月11日",
+                    "name": "元宵节"
+                },
+                {
+                    "dateDisplay": "2月14日",
+                    "name": "情人节"
+                },
+                {
+                    "dateDisplay": "3月8日",
+                    "name": "妇女节"
+                },
+                {
+                    "dateDisplay": "4月2日-4月4日",
+                    "name": "清明节"
+                },
+                {
+                    "dateDisplay": "4月29日-5月1日",
+                    "name": "劳动节"
+                },
+                {
+                    "dateDisplay": "5月14日",
+                    "name": "母亲节"
+                },
+                {
+                    "dateDisplay": "5月28日-5月30日",
+                    "name": "端午节"
+                },
+                {
+                    "dateDisplay": "6月1日",
+                    "name": "儿童节"
+                },
+                {
+                    "dateDisplay": "6月18日",
+                    "name": "父亲节"
+                },
+                {
+                    "dateDisplay": "8月28日",
+                    "name": "七夕节"
+                },
+                {
+                    "dateDisplay": "9月10日",
+                    "name": "教师节"
+                },
+                {
+                    "dateDisplay": "10月1日-10月8日",
+                    "name": "国庆节"
+                },
+                {
+                    "dateDisplay": "10月4日",
+                    "name": "中秋节"
+                },
+                {
+                    "dateDisplay": "12月24日-12月25日",
+                    "name": "圣诞节"
+                }
+            ],
+            "promotionParamsVOs": [
+                {
+                    "countLimitVO": {
+                        "hasSelected": false,
+                        "limitCount": 0
+                    },
+                    "discountVO": {
+                        "discount": 9,
+                        "hasDiscountLimit": false,
+                        "maxDiscount": 0
+                    },
+                    "durationVO": {
+                        "dateIntervalVO": {
+                            "fromDate": "2017-07-03",
+                            "toDate": "2017-07-03"
+                        },
+                        "excludeDateIntervals": [],
+                        "excludeWeekdays": [],
+                        "hasExcludeDateInterval": false,
+                        "hasExcludeHoliday": false,
+                        "hasExcludeWeekdays": false,
+                        "type": 4
+                    },
+                    "id": 347,
+                    "promotionType": 1,
+                    "reductionVO": null,
+                    "selectedShopIds": [
+                        8067103
+                    ],
+                    "status": 3,
+                    "usePeriodVO": {
+                        "interval": [
+                            {
+                                "fromTime": "00:00",
+                                "secondDuration": 86400,
+                                "timeSpan": 1440
+                            }
+                        ],
+                        "type": 1
+                    },
+                    "viewId": 329
+                },
+                {
+                    "countLimitVO": {
+                        "hasSelected": false,
+                        "limitCount": 0
+                    },
+                    "discountVO": null,
+                    "durationVO": {
+                        "dateIntervalVO": {
+                            "fromDate": "2018-04-05",
+                            "toDate": "2018-07-05"
+                        },
+                        "excludeDateIntervals": [],
+                        "excludeWeekdays": [],
+                        "hasExcludeDateInterval": false,
+                        "hasExcludeHoliday": false,
+                        "hasExcludeWeekdays": false,
+                        "type": 4
+                    },
+                    "id": 342,
+                    "promotionType": 2,
+                    "reductionVO": {
+                        "additionCount": 0,
+                        "hasOverlay": false,
+                        "reduce": 10,
+                        "step": 100
+                    },
+                    "selectedShopIds": [
+                        8067103
+                    ],
+                    "status": 1,
+                    "usePeriodVO": {
+                        "interval": [
+                            {
+                                "fromTime": "00:00",
+                                "secondDuration": 86400,
+                                "timeSpan": 1440
+                            }
+                        ],
+                        "type": 1
+                    },
+                    "viewId": 342
+                },
+                {
+                    "countLimitVO": {
+                        "hasSelected": false,
+                        "limitCount": 0
+                    },
+                    "discountVO": {
+                        "discount": 8.5,
+                        "hasDiscountLimit": false,
+                        "maxDiscount": 0
+                    },
+                    "durationVO": {
+                        "dateIntervalVO": {
+                            "fromDate": "2017-06-23",
+                            "toDate": "2017-07-31"
+                        },
+                        "excludeDateIntervals": [],
+                        "excludeWeekdays": [],
+                        "hasExcludeDateInterval": false,
+                        "hasExcludeHoliday": false,
+                        "hasExcludeWeekdays": false,
+                        "type": 4
+                    },
+                    "id": 337,
+                    "promotionType": 1,
+                    "reductionVO": null,
+                    "selectedShopIds": [
+                        585056
+                    ],
+                    "status": 2,
+                    "usePeriodVO": {
+                        "interval": [
+                            {
+                                "fromTime": "00:00",
+                                "secondDuration": 86400,
+                                "timeSpan": 1440
+                            }
+                        ],
+                        "type": 1
+                    },
+                    "viewId": 294
+                },
+                {
+                    "countLimitVO": {
+                        "hasSelected": false,
+                        "limitCount": 0
+                    },
+                    "discountVO": null,
+                    "durationVO": {
+                        "dateIntervalVO": {
+                            "fromDate": "2017-06-22",
+                            "toDate": "2017-06-22"
+                        },
+                        "excludeDateIntervals": [],
+                        "excludeWeekdays": [],
+                        "hasExcludeDateInterval": false,
+                        "hasExcludeHoliday": false,
+                        "hasExcludeWeekdays": false,
+                        "type": 4
+                    },
+                    "id": 295,
+                    "promotionType": 2,
+                    "reductionVO": {
+                        "additionCount": 0,
+                        "hasOverlay": false,
+                        "reduce": 1,
+                        "step": 3
+                    },
+                    "selectedShopIds": [
+                        11552135
+                    ],
+                    "status": 3,
+                    "usePeriodVO": {
+                        "interval": [
+                            {
+                                "fromTime": "23:00",
+                                "secondDuration": 3600,
+                                "timeSpan": 60
+                            }
+                        ],
+                        "type": 4
+                    },
+                    "viewId": 295
+                },
+                {
+                    "countLimitVO": {
+                        "hasSelected": false,
+                        "limitCount": 0
+                    },
+                    "discountVO": null,
+                    "durationVO": {
+                        "dateIntervalVO": {
+                            "fromDate": "2017-06-21",
+                            "toDate": "2017-06-21"
+                        },
+                        "excludeDateIntervals": [],
+                        "excludeWeekdays": [],
+                        "hasExcludeDateInterval": false,
+                        "hasExcludeHoliday": false,
+                        "hasExcludeWeekdays": false,
+                        "type": 4
+                    },
+                    "id": 255,
+                    "promotionType": 2,
+                    "reductionVO": {
+                        "additionCount": 0,
+                        "hasOverlay": false,
+                        "reduce": 20,
+                        "step": 100
+                    },
+                    "selectedShopIds": [
+                        11552135
+                    ],
+                    "status": 3,
+                    "usePeriodVO": {
+                        "interval": [
+                            {
+                                "fromTime": "22:00",
+                                "secondDuration": 3600,
+                                "timeSpan": 60
+                            }
+                        ],
+                        "type": 4
+                    },
+                    "viewId": 255
+                },
+                {
+                    "countLimitVO": {
+                        "hasSelected": false,
+                        "limitCount": 0
+                    },
+                    "discountVO": null,
+                    "durationVO": {
+                        "dateIntervalVO": {
+                            "fromDate": "2017-06-21",
+                            "toDate": "2017-06-21"
+                        },
+                        "excludeDateIntervals": [],
+                        "excludeWeekdays": [],
+                        "hasExcludeDateInterval": false,
+                        "hasExcludeHoliday": false,
+                        "hasExcludeWeekdays": false,
+                        "type": 4
+                    },
+                    "id": 248,
+                    "promotionType": 2,
+                    "reductionVO": {
+                        "additionCount": 0,
+                        "hasOverlay": false,
+                        "reduce": 2,
+                        "step": 100
+                    },
+                    "selectedShopIds": [
+                        8067103
+                    ],
+                    "status": 3,
+                    "usePeriodVO": {
+                        "interval": [
+                            {
+                                "fromTime": "10:00",
+                                "secondDuration": 18000,
+                                "timeSpan": 300
+                            }
+                        ],
+                        "type": 2
+                    },
+                    "viewId": 248
+                }
+            ],
+            "shopList": [
+                {
+                    "id": 8067103,
+                    "shopName": "HomeThai"
+                },
+                {
+                    "id": 11552135,
+                    "shopName": "大董海参店(上海越洋广场店)"
+                },
+                {
+                    "id": 585056,
+                    "shopName": "海鲜坊"
+                }
+            ],
+            "promoLimitHackShopIds": [
+                "8067103",
+                "585056"
+            ]
+        },
+        "msg": "成功"
+    }
+}

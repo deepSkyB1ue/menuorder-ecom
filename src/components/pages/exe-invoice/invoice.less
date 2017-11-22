@@ -1,0 +1,106 @@
+@import '../../../assets/less/color';
+.tab-item-nulltype-container .tab-item.tab-item-selected {
+    color: #4285F4;
+}
+
+.time-filter {
+    padding: 15px 25px;
+    background: #FAFAFA;
+    position: relative;
+    .download-qrcode {
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        color: #168CEF;
+        .middle-text {
+            vertical-align: middle;
+        }
+        .qrcode-icon {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            vertical-align: middle;
+            background-image: url('../../../assets/img/qrcode-default.png');
+            background-size: 100% 100%;
+        }
+        &:hover{
+            color: #065EA7;
+        }
+        &:hover .qrcode-icon{
+            background-image: url('../../../assets/img/qrcode-hover.png');
+            background-size: 100% 100%;
+        }
+        .download-word {
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            top: -1px;
+        }
+    }
+}
+.search-cont{
+    margin: 10px 25px;
+    .input-search{
+        display: inline-block;
+        height: 40px;
+        width: 300px;
+        border: 1px solid #cccccc;
+        color: #666666;
+        box-sizing: border-box;
+        padding: 0 11px;
+        font-size: 14px;
+        line-height: 24px;
+        vertical-align: top;
+    }
+    .search-btn{
+        height: 40px;
+    }
+    
+}
+
+.table-invoice {
+    margin: 20px 25px 0 25px;
+    .table-body {
+        border: 1px solid @mt-black-3;
+        font-family: "微软雅黑";
+
+        th {
+            font-size: 12px;
+            line-height: 1.5;
+            color: @mt-black-8;
+            padding: 10px 0px 10px 40px;
+            background-color: @mt-black-1;
+            border: 1px solid @mt-black-3;
+        }
+        .th-handle {
+            padding: 10px 0px;
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid @mt-black-3;
+            padding: 10px 20px 10px 40px;
+            
+            color: @text-normal;
+            font-size: 13px;
+
+            .detail-link {
+                text-align: center;
+            }
+        }
+        .see-detail {
+            color: #168CEF;
+            cursor: pointer;
+            text-align: center;
+            padding: 10px 0px;
+        }
+        .empty-default {
+            height: 160px;
+            text-align: center;
+        }
+    }
+    .pagination {
+        text-align: right;
+    }
+}

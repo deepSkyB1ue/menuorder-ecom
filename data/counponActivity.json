@@ -1,0 +1,573 @@
+{
+  "couponActivity": {
+    "code": "200",
+    "data": {
+      "activityParamsVOList": [
+        {
+          "finished": true,
+          "giveCount": 1,
+          "giveDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-06-19",
+              "toDate": "2017-06-19"
+            },
+            "type": 4
+          },
+          "giveLimitVO": {
+            "limitNum": 1,
+            "type": 1
+          },
+          "giveStep": 10,
+          "id": 46,
+          "name": "测试-zdp1",
+          "selectedShopIds": [
+            11552135
+          ],
+          "stock": {
+            "givenCount": 0,
+            "maxCount": 99999,
+            "usedCount": 0
+          },
+          "useDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "",
+              "toDate": ""
+            },
+            "excludeDateIntervals": [],
+            "excludeWeekdays": [],
+            "hasExcludeDateInterval": false,
+            "hasExcludeHoliday": true,
+            "hasExcludeWeekdays": false,
+            "step": 3,
+            "type": 20
+          },
+          "useLimitType": 0,
+          "useLimitVO": {
+            "reduce": 12,
+            "step": 15
+          },
+          "usePeriodVO": {
+            "interval": [
+              {
+                "fromTime": "00:00",
+                "timeSpan": 1440
+              }
+            ],
+            "type": 1
+          },
+          "viewId": 46
+        },
+        {
+          "giveCount": 1,
+          "giveDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-10-05",
+              "toDate": "2017-10-05"
+            },
+            "type": 4
+          },
+          "giveLimitVO": {
+            "limitNum": 1,
+            "type": 1
+          },
+          "giveStep": 3,
+          "id": 72,
+          "name": "dsfs",
+          "selectedShopIds": [
+            11552135
+          ],
+          "stock": {
+            "givenCount": 0,
+            "maxCount": 99999,
+            "usedCount": 0
+          },
+          "useDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "",
+              "toDate": ""
+            },
+            "excludeDateIntervals": [],
+            "excludeWeekdays": [],
+            "hasExcludeDateInterval": false,
+            "hasExcludeHoliday": false,
+            "hasExcludeWeekdays": false,
+            "step": 3,
+            "type": 20
+          },
+          "useLimitType": 0,
+          "useLimitVO": {
+            "reduce": 2,
+            "step": 3
+          },
+          "usePeriodVO": {
+            "interval": [
+              {
+                "fromTime": "00:00",
+                "timeSpan": 1440
+              }
+            ],
+            "type": 1
+          },
+          "viewId": 72
+        },
+        {
+          "giveCount": 2,
+          "giveDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2018-02-14",
+              "toDate": "2018-03-07"
+            },
+            "type": 4
+          },
+          "giveLimitVO": {
+            "limitNum": 1,
+            "type": 1
+          },
+          "giveStep": 11,
+          "id": 91,
+          "name": "测试-zdp2",
+          "selectedShopIds": [
+            11552135
+          ],
+          "stock": {
+            "givenCount": 0,
+            "maxCount": 99999,
+            "usedCount": 0
+          },
+          "useDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-08-03",
+              "toDate": "2017-08-31"
+            },
+            "excludeDateIntervals": [
+              {
+                "fromDate": "2017-06-26",
+                "toDate": "2017-06-27"
+              }
+            ],
+            "excludeWeekdays": [
+              0,
+              6
+            ],
+            "hasExcludeDateInterval": true,
+            "hasExcludeHoliday": true,
+            "hasExcludeWeekdays": true,
+            "step": 0,
+            "type": 10
+          },
+          "useLimitType": 0,
+          "useLimitVO": {
+            "reduce": 3,
+            "step": 13
+          },
+          "usePeriodVO": {
+            "interval": [
+              {
+                "fromTime": "10:00",
+                "timeSpan": 300
+              }
+            ],
+            "type": 2
+          },
+          "viewId": 47
+        },
+        {
+          "giveCount": 2,
+          "giveDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-07-25",
+              "toDate": "2017-07-26"
+            },
+            "type": 4
+          },
+          "giveLimitVO": {
+            "limitNum": 1,
+            "type": 1
+          },
+          "giveStep": 10,
+          "id": 106,
+          "name": "券活动测试-勿动",
+          "selectedShopIds": [
+            8067103
+          ],
+          "stock": {
+            "givenCount": 0,
+            "maxCount": 99999,
+            "usedCount": 0
+          },
+          "useDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-07-24",
+              "toDate": "2017-07-26"
+            },
+            "excludeDateIntervals": [],
+            "excludeWeekdays": [],
+            "hasExcludeDateInterval": false,
+            "hasExcludeHoliday": true,
+            "hasExcludeWeekdays": false,
+            "step": 0,
+            "type": 10
+          },
+          "useLimitType": 0,
+          "useLimitVO": {
+            "reduce": 4,
+            "step": 5
+          },
+          "usePeriodVO": {
+            "interval": [
+              {
+                "fromTime": "17:00",
+                "timeSpan": 360
+              }
+            ],
+            "type": 3
+          },
+          "viewId": 62
+        },
+        {
+          "giveCount": 1,
+          "giveDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-06-23",
+              "toDate": "2017-09-23"
+            },
+            "type": 2
+          },
+          "giveLimitVO": {
+            "limitNum": 1,
+            "type": 1
+          },
+          "giveStep": 2,
+          "id": 108,
+          "name": "圣诞节回到家回到家傻大姐哈大家",
+          "selectedShopIds": [
+            11552135
+          ],
+          "stock": {
+            "givenCount": 0,
+            "maxCount": 10000000,
+            "usedCount": 0
+          },
+          "useDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "",
+              "toDate": ""
+            },
+            "excludeDateIntervals": [],
+            "excludeWeekdays": [],
+            "hasExcludeDateInterval": false,
+            "hasExcludeHoliday": false,
+            "hasExcludeWeekdays": false,
+            "step": 2,
+            "type": 20
+          },
+          "useLimitType": 0,
+          "useLimitVO": {
+            "reduce": 1,
+            "step": 3
+          },
+          "usePeriodVO": {
+            "interval": [
+              {
+                "fromTime": "00:00",
+                "timeSpan": 1440
+              }
+            ],
+            "type": 1
+          },
+          "viewId": 107
+        },
+        {
+          "giveCount": 2,
+          "giveDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-06-26",
+              "toDate": "2017-06-26"
+            },
+            "type": 4
+          },
+          "giveLimitVO": {
+            "limitNum": 1,
+            "type": 1
+          },
+          "giveStep": 1,
+          "id": 122,
+          "name": "11",
+          "selectedShopIds": [
+            8067103
+          ],
+          "stock": {
+            "givenCount": 2,
+            "maxCount": 10000000,
+            "usedCount": 0
+          },
+          "useDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-06-26",
+              "toDate": "2017-06-27"
+            },
+            "excludeDateIntervals": [],
+            "excludeWeekdays": [],
+            "hasExcludeDateInterval": false,
+            "hasExcludeHoliday": false,
+            "hasExcludeWeekdays": false,
+            "step": 0,
+            "type": 10
+          },
+          "useLimitType": 0,
+          "useLimitVO": {
+            "reduce": 1,
+            "step": 2
+          },
+          "usePeriodVO": {
+            "interval": [
+              {
+                "fromTime": "00:00",
+                "timeSpan": 1440
+              }
+            ],
+            "type": 1
+          },
+          "viewId": 122
+        },
+        {
+          "giveCount": 1,
+          "giveDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-06-27",
+              "toDate": "2017-06-30"
+            },
+            "type": 4
+          },
+          "giveLimitVO": {
+            "limitNum": 1,
+            "type": 1
+          },
+          "giveStep": 2,
+          "id": 127,
+          "name": "海鲜很好",
+          "selectedShopIds": [
+            585056,
+            8067103
+          ],
+          "stock": {
+            "givenCount": 4,
+            "maxCount": 10000000,
+            "usedCount": 0
+          },
+          "useDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-06-26",
+              "toDate": "2017-08-30"
+            },
+            "excludeDateIntervals": [],
+            "excludeWeekdays": [],
+            "hasExcludeDateInterval": false,
+            "hasExcludeHoliday": false,
+            "hasExcludeWeekdays": false,
+            "step": 0,
+            "type": 10
+          },
+          "useLimitType": 0,
+          "useLimitVO": {
+            "reduce": 1,
+            "step": 2
+          },
+          "usePeriodVO": {
+            "interval": [
+              {
+                "fromTime": "00:00",
+                "timeSpan": 1440
+              }
+            ],
+            "type": 1
+          },
+          "viewId": 121
+        },
+        {
+          "giveCount": 8,
+          "giveDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-07-03",
+              "toDate": "2017-07-04"
+            },
+            "type": 4
+          },
+          "giveLimitVO": {
+            "limitNum": 1,
+            "type": 1
+          },
+          "giveStep": 1,
+          "id": 130,
+          "name": "111",
+          "selectedShopIds": [
+            8067103
+          ],
+          "stock": {
+            "givenCount": 16,
+            "maxCount": 10000000,
+            "usedCount": 0
+          },
+          "useDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-07-03",
+              "toDate": "2017-07-03"
+            },
+            "excludeDateIntervals": [],
+            "excludeWeekdays": [],
+            "hasExcludeDateInterval": false,
+            "hasExcludeHoliday": false,
+            "hasExcludeWeekdays": false,
+            "step": 0,
+            "type": 10
+          },
+          "useLimitType": 0,
+          "useLimitVO": {
+            "reduce": 1,
+            "step": 2
+          },
+          "usePeriodVO": {
+            "interval": [
+              {
+                "fromTime": "00:00",
+                "timeSpan": 1440
+              }
+            ],
+            "type": 1
+          },
+          "viewId": 130
+        },
+        {
+          "giveCount": 1,
+          "giveDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-07-07",
+              "toDate": "2017-07-07"
+            },
+            "type": 4
+          },
+          "giveLimitVO": {
+            "limitNum": 1,
+            "type": 1
+          },
+          "giveStep": 1,
+          "id": 143,
+          "name": "2222",
+          "selectedShopIds": [
+            8067103
+          ],
+          "stock": {
+            "givenCount": 2,
+            "maxCount": 10000000,
+            "usedCount": 0
+          },
+          "useDurationVO": {
+            "dateIntervalVO": {
+              "fromDate": "2017-07-07",
+              "toDate": "2017-07-07"
+            },
+            "excludeDateIntervals": [],
+            "excludeWeekdays": [],
+            "hasExcludeDateInterval": false,
+            "hasExcludeHoliday": false,
+            "hasExcludeWeekdays": false,
+            "step": 0,
+            "type": 10
+          },
+          "useLimitType": 0,
+          "useLimitVO": {
+            "reduce": 1,
+            "step": 2
+          },
+          "usePeriodVO": {
+            "interval": [
+              {
+                "fromTime": "00:00",
+                "timeSpan": 1440
+              }
+            ],
+            "type": 1
+          },
+          "viewId": 143
+        }
+      ],
+      "holidayVOs": [
+        {
+          "dateDisplay": "1月1日-1月2日",
+          "name": "元旦"
+        },
+        {
+          "dateDisplay": "1月27日-2月2日",
+          "name": "春节"
+        },
+        {
+          "dateDisplay": "2月11日-2月11日",
+          "name": "元宵节"
+        },
+        {
+          "dateDisplay": "2月14日-2月14日",
+          "name": "情人节"
+        },
+        {
+          "dateDisplay": "3月8日-3月8日",
+          "name": "妇女节"
+        },
+        {
+          "dateDisplay": "4月2日-4月4日",
+          "name": "清明节"
+        },
+        {
+          "dateDisplay": "4月29日-5月1日",
+          "name": "劳动节"
+        },
+        {
+          "dateDisplay": "5月14日-5月14日",
+          "name": "母亲节"
+        },
+        {
+          "dateDisplay": "5月28日-5月30日",
+          "name": "端午节"
+        },
+        {
+          "dateDisplay": "6月1日-6月1日",
+          "name": "儿童节"
+        },
+        {
+          "dateDisplay": "6月18日-6月18日",
+          "name": "父亲节"
+        },
+        {
+          "dateDisplay": "8月28日-8月28日",
+          "name": "七夕节"
+        },
+        {
+          "dateDisplay": "9月10日-9月10日",
+          "name": "教师节"
+        },
+        {
+          "dateDisplay": "10月1日-10月8日",
+          "name": "国庆节"
+        },
+        {
+          "dateDisplay": "10月4日-10月4日",
+          "name": "中秋节"
+        },
+        {
+          "dateDisplay": "12月24日-12月25日",
+          "name": "圣诞节"
+        }
+      ],
+      "shopList": [
+        {
+          "id": 8067103,
+          "shopName": "HomeThai"
+        },
+        {
+          "id": 11552135,
+          "shopName": "大董海参店(上海越洋广场店)"
+        }
+      ]
+    },
+    "msg": "成功"
+  }
+}

@@ -1,0 +1,61 @@
+input[type=radio] {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    position: relative;
+    margin-right: 5px;
+    -webkit-appearance: none;
+    vertical-align: -2px;
+    &.disabled::after {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        height: 14px;
+        width: 14px;
+        left: 0;
+        top: 0;
+        background-image: url('../svg/radio-disabled.svg');
+        background-size: 14px 14px;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+    &.disabled:checked {
+        &::after {
+            background-image: url('../svg/radio-disabled-checked.svg');
+            content:"";
+            position:absolute;
+            display: inline-block;
+            background-size: 14px 14px;
+            height: 14px;
+            width: 14px;
+            left: 0;
+            top: 0;
+        }
+    }
+    &::after {
+        content:"";
+        position:absolute;
+        display: inline-block;
+        background-size: 14px 14px;
+        height: 14px;
+        width: 14px;
+        left: 0;
+        top: 0;
+        background-image: url('../svg/radio.svg');
+        cursor: pointer;
+        vertical-align: middle;
+    }
+    &:checked {
+        &::after {
+            background-image: url('../svg/radio-checked.svg');
+            content:"";
+            position:absolute;
+            display: inline-block;
+            background-size: 14px 14px;
+            height: 14px;
+            width: 14px;
+            left: 0;
+            top: 0;
+        }
+    }
+}

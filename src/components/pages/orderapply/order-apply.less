@@ -1,0 +1,149 @@
+@import "../../../assets/less/preset";
+@import "../../../assets/less/font";
+@import "../../../assets/less/input";
+
+.input-search-large {
+    .input-search-large();
+}
+.center-block {
+    width: 440px;
+    margin: 0 auto;
+    text-align: center;
+
+    .title {
+        padding: 30px 0 18px;
+        border-bottom: 1px solid #CCC;
+        margin: 0;
+        text-align: center;
+        font-size: 24px;
+    }
+    .logo {
+        width: 126px;
+        height: 24px;
+        margin: 0 auto;
+        background: url('../../../assets/img/logo_color.png') no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;;
+    }
+}
+.apply-order-form {
+    width: 100%;
+    padding: 20px 10px 35px;
+    .box-size(border-box);
+
+    .input-block {
+        margin-bottom: 20px;
+        font-size: 0;
+
+        label {
+            display: inline-block;
+            width: 80px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        .input-label {
+            font-size: 14px;
+        }
+
+        .required {
+            color: #FD4442;
+            font-size: 18px;
+            float: left;
+            line-height: 26px;
+            margin-right: 2px;
+        }
+
+        .input-search-large {
+            width: 340px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+
+            &.error {
+                border-color: #FD4442;
+            }
+        }
+        .send-code-btn {
+            position: absolute;
+            width: 105px;
+            height: 40px;
+            font-size: 13px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background: #eee;
+            margin-left: 10px;
+        }
+    }
+    .verify-block {
+        .error-verify-code {
+            display: none;
+            height: 20px;
+            font-size: 13px;
+            display: block;
+            text-align: left;
+            margin-left: 80px;
+            color: #FD4442;
+            margin-top: 5px;
+        }
+    }
+
+    .btn-submit.disable {
+        background-color: #CCCCCC;
+        cursor: not-allowed;
+    }
+}
+.mbox-title {
+    color: #666;
+    text-align: center;
+    padding-left: 0;
+}
+.mbox-close {
+    display: none;
+}
+.order-apply-confirm {
+    .popup-footer {
+        padding: 0;
+    }
+    .btn-mrg {
+        width: 302px;
+        margin-right: 0;
+        margin-left: -1px;
+        margin-bottom: -1px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #32BFB3;
+    }
+    .close-btn {
+        display: none;
+    }
+    &.confirm-content .con {
+        color: #666;
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+    .success-icon {
+        width: 40px;
+        height: 40px;
+        margin: -10px auto 10px;
+        background: url('../../../assets/img/ecom-icon.png') no-repeat;
+        background-position: -57px -72px;
+        background-size: 296px;
+    }
+}
+.btn-medium-normal-green {
+    display: inline-block;
+    width: 104px;
+    height: 40px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 40px;
+    border-radius: 2px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3dc6b6;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}

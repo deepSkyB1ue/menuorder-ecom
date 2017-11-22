@@ -1,0 +1,58 @@
+input[type=checkbox] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    -webkit-appearance: none;
+    position: relative;
+    vertical-align: -2px;
+    &.disabled::after {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background-image: url('../svg/checkbox-disabled.svg');
+        background-size: 14px 14px;
+        vertical-align: middle;
+        margin-right: 5px;
+        top: 0;
+    }
+    &.disabled:checked {
+        &::after {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background-image: url('../svg/checkbox-disabled-checked.svg') no-repeat;
+            background-size: 14px 14px;
+            vertical-align: middle;
+            margin-right: 5px;
+            top: 0;
+        }
+    }
+    &::after {
+        content:"";
+        position: absolute;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background-image: url('../svg/checkbox.svg');
+        background-size: 14px 14px;
+        vertical-align: middle;
+        margin-right: 5px;
+        top: 0;
+    }
+    &:checked {
+        &::after {
+            content:"";
+            position: absolute;
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            top: 0;
+            background-size: 14px 14px;
+            background-image: url('../svg/checkbox-checked.svg');
+        }
+    }
+}

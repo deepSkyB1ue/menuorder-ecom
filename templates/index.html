@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="大众点评">
+    <title>点餐秒付</title>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script>
+        window.startTime = performance.now()
+    </script>
+    <script>
+        window.jsEndTime = performance.now()
+        window.jsLoadTime = window.jsEndTime - window.startTime;
+    </script>
+    <script crossorigin="anonymous" src="//www.dpfile.com/app/owl/static/owl_1.5.13.js"></script>
+    <script>
+            Owl.start({
+                project: 'menuorder-ecom',
+                pageUrl: window.location.href,
+                resource: { sampleApi: 1, combo: false, delay: 100 },
+                error: { sample: 1, combo: false, delay: 100 },
+                metric: { sample: 1, combo: false, delay: 100 },
+                invalid: { ajax: true },
+                image: { flag: true, fileSize: 1000, duration: 3000 },
+                ajax: { flag: true, duration: 3000 },
+                autoCatch: { ajax: true, page: true, js: true, resource: true },
+                disabledFilters: [],
+                noScriptError: false,
+            })
+    </script>
+</body>
+
+</html>

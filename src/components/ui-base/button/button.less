@@ -1,0 +1,363 @@
+@import '../../../assets/less/preset.less';
+@import '../../../assets/less/color.less';
+@import '../../../assets/less/font.less';
+/**
+ * 按钮
+ */
+
+/* ----------大按钮--------- */
+.btn-large-layout () {
+    width: 160px;
+    height: 60px;
+    padding: 0px;
+    font-size: 24px;
+    display: inline-block;
+    .box-size(border-box);
+}
+.btn-large-normal-theme () {
+    border-radius: 4px;
+    line-height: 60px;
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-orange-light;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.btn-large-active-theme () {
+    border-radius: 4px;
+    line-height: 60px;
+    /* line-height: 34px; */
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-orange-dark;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.btn-large-disable-theme () {
+    border-radius: 4px;
+    line-height: 60px;
+    /* line-height: 34px; */
+    text-align: center;
+    color: @mt-black-5;
+    background-color: @mt-black-2;
+    border: 1px solid @mt-black-4;
+    cursor: pointer;
+}
+/* 正常 */
+.btn-large-normal {
+    .btn-large-layout();
+    .btn-large-normal-theme() ;
+    &:active {
+        .btn-large-active-theme();
+    }
+}
+/*不可点击*/
+.btn-large-disable {
+    .btn-large-layout();
+    .btn-large-disable-theme();
+}
+/* ----------大按钮--------- */
+
+/* -----------------中按钮-------------- */
+.btn-medium-without-icon-layout () {
+    display: inline-block;
+    width: 104px;
+    height: 40px;
+    padding: 0;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.btn-medium-with-icon-layout () {
+    display: inline-block;
+    width: 123px;
+    height: 40px;
+    padding: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-medium-icon (@icon-url, @icon-sizing-height, @icon-sizing-width) {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    line-height: 40px;
+    background: url(@icon-url) no-repeat;
+    -webkit-background-size: @icon-sizing-height @icon-sizing-width;
+    -moz-background-size: @icon-sizing-height @icon-sizing-width;
+    -ms-background-size: @icon-sizing-height @icon-sizing-width;
+    background-size: @icon-sizing-height @icon-sizing-width;
+    cursor: pointer;
+}
+.btn-medium-normal-orange-theme () {
+    line-height: 40px;
+    border-radius: 2px;
+    /* line-height: 24px; */
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-orange-light;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-medium-active-orange-theme () {
+    line-height: 40px;
+    border-radius: 2px;
+    /* line-height: 24px; */
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-orange-dark;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-medium-normal-green-theme () {
+    line-height: 40px;
+    border-radius: 2px;
+    /* line-height: 24px; */
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-green-light;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-medium-active-green-theme () {
+    line-height: 40px;
+    border-radius: 2px;
+    /* line-height: 24px; */
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-green-dark;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-medium-normal-grey-theme () {
+    line-height: 40px;
+    border-radius: 2px;
+    /* line-height: 24px; */
+    text-align: center;
+    color: #666666;
+    background-color: @mt-black-2;
+    border: 1px solid @mt-black-3;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-medium-active-grey-theme () {
+    line-height: 40px;
+    border-radius: 2px;
+    /* line-height: 24px; */
+    text-align: center;
+    color: #666666;
+    background-color: @mt-black-3;
+    border: 1px solid @mt-black-4;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-medium-disable-theme () {
+    line-height: 40px;
+    border-radius: 2px;
+    /* line-height: 24px; */
+    text-align: center;
+    color: @mt-black-5;
+    background-color: @mt-black-2;
+    border: 1px solid @mt-black-3;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* 正常橘 */
+.btn-medium-normal-orange {
+    .btn-medium-without-icon-layout();
+    .btn-medium-normal-orange-theme();
+    &:active {
+        .btn-medium-active-orange-theme();
+    }
+}
+/* 正常绿 */
+.btn-medium-normal-green {
+    .btn-medium-without-icon-layout();
+    .btn-medium-normal-green-theme();
+    &:active {
+        .btn-medium-active-green-theme();
+    }
+}
+/* 正常灰 */
+.btn-medium-normal-grey {
+    .btn-medium-without-icon-layout();
+    .btn-medium-normal-grey-theme();
+    &:active {
+        .btn-medium-active-grey-theme();
+    }
+}
+/* 不可点击 */
+.btn-medium-disable {
+    .btn-medium-without-icon-layout();
+    .btn-medium-disable-theme();
+}
+/* -----------------中按钮-------------- */
+
+
+/** ----------------小按钮-------------- **/
+.btn-small-withicon-layout () {
+    display: inline-block;
+    line-height: 30px;
+    width: 103px;
+    height: 30px;
+    padding: 0;
+    font-size: 14px;
+    cursor: pointer;
+    .box-size(border-box);
+}
+.btn-small-withouticon-layout () {
+    display: inline-block;
+    line-height: 30px;
+    width: 84px;
+    height: 30px;
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+    .box-size(border-box);
+}
+.btn-small-icon (@icon-url, @icon-sizing-height, @icon-sizing-width) {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    line-height: 30px;
+    background: url(@icon-url) no-repeat;
+    -webkit-background-size: @icon-sizing-height @icon-sizing-width;
+    -moz-background-size: @icon-sizing-height @icon-sizing-width;
+    -ms-background-size: @icon-sizing-height @icon-sizing-width;
+    background-size: @icon-sizing-height @icon-sizing-width;
+}
+
+/* ---------小按钮-面型（填充背景色）---------*/
+.btn-solid-small-orange-normal-theme () {
+    border-radius: 2px;
+    line-height: 28px;
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-orange-light;
+    border: 1px solid transparent;
+}
+.btn-solid-small-orange-active-theme () {
+    border-radius: 2px;
+     line-height: 28px;
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-orange-dark;
+    border: 1px solid transparent;
+}
+.btn-solid-small-green-normal-theme () {
+    border-radius: 2px;
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-green-light;
+    border: 1px solid transparent;
+    line-height: 28px;
+}
+.btn-solid-small-green-active-theme () {
+    border-radius: 2px;
+    line-height: 28px;
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-green-dark;
+    border: 1px solid transparent;
+}
+.btn-solid-small-grey-normal-theme () {
+    border-radius: 2px;
+    line-height: 28px;
+    text-align: center;
+    color: #666666;
+    background-color: @mt-black-2;
+    border: 1px solid @mt-black-3;
+}
+.btn-solid-small-grey-active-theme () {
+    border-radius: 2px;
+    line-height: 18px;
+    text-align: center;
+    color: #666666;
+    background-color: @mt-black-3;
+    border: 1px solid @mt-black-4;
+}
+.btn-solid-small-disable-theme () {
+    border-radius: 2px;
+    line-height: 28px;
+    text-align: center;
+    color: @mt-black-5;
+    background-color: @mt-black-2;
+    border: 1px solid @mt-black-3;
+}
+
+/* 正常橘 */
+.btn-solid-small-orange-normal {
+    .btn-small-withouticon-layout();
+    .btn-solid-small-orange-normal-theme();
+    &:active {
+        .btn-solid-small-orange-active-theme();
+    }
+}
+/* 正常绿 */
+.btn-solid-small-green-normal {
+    .btn-small-withouticon-layout();
+    .btn-solid-small-green-normal-theme();
+    &:active {
+        .btn-solid-small-green-active-theme();
+    }
+}
+/* 正常灰 */
+.btn-solid-small-grey-normal {
+    .btn-small-withouticon-layout();
+    .btn-solid-small-grey-normal-theme();
+    &:active {
+        .btn-solid-small-grey-active-theme();
+    }
+}
+/* 不可点击 */
+.btn-solid-small-disable {
+    .btn-small-withouticon-layout();
+    .btn-solid-small-disable-theme();
+}
+/* -----------小按钮-面型（填充背景色）--------*/
+
+
+/* ------------小按钮-线型（无背景色）--------*/
+.btn-hollow-small-normal-theme () {
+    border-radius: 2px;
+    /* line-height: 18px; */
+    text-align: center;
+    color: @mt-green-light;
+    background-color: @mt-black-0;
+    border: 1px solid @mt-green-dark;
+}
+.btn-hollow-small-active-theme () {
+    border-radius: 2px;
+    /* line-height: 18px; */
+    text-align: center;
+    color: @mt-black-0;
+    background-color: @mt-green-dark;
+    border: 1px solid transparent;
+}
+.btn-hollow-small-disable-theme () {
+    border-radius: 2px;
+    /* line-height: 18px; */
+    text-align: center;
+    color: @mt-black-5;
+    background-color: @mt-black-0;
+    border: 1px solid @mt-black-3;
+}
+
+/* 正常 */
+.btn-hollow-small-normal {
+    .btn-small-withouticon-layout();
+    .btn-hollow-small-normal-theme();
+    &:active {
+        .btn-hollow-small-active-theme();
+    }
+}
+/* 不可点击 */
+.btn-hollow-small-disable {
+    .btn-small-withouticon-layout();
+    .btn-hollow-small-disable-theme();
+}
+/* -----------小按钮-线型（无背景色）---------*/
